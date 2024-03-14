@@ -1,0 +1,37 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-body-register {
+  margin: 5rem;
+}
+.register-form {
+  margin-top: 1rem;
+}
+
+.register-form .form-group {
+  margin-bottom: 1rem; 
+}
+
+.register-form .form-control {
+  background-color: rgba(255, 255, 255, 0.1); 
+  color: #ffffff;
+  border: none; 
+  border-radius: 0; 
+}
+
+.register-form .form-control::placeholder {
+  color: rgba(255, 255, 255, 0.5); 
+}
+
+.register-form .btn-primary {
+  background-color: #007bff; 
+  border: none; 
+}
+
+.register-form .btn-primary:hover {
+  background-color: #0056b3; 
+}
